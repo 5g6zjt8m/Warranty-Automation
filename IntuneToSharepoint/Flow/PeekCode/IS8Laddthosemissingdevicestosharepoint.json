@@ -1,0 +1,27 @@
+
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_sharepointonline",
+            "operationId": "PostItem",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+        },
+        "parameters": {
+            "dataset": "site address",
+            "table": "8c9fa4d1-886f-4fe5-aa8a-2466368543c6",
+            "item/Title": "@items('add_those_missing_intune_devices_to_sharepoint')?['deviceName']",
+            "item/ManagedDeviceName": "@items('add_those_missing_intune_devices_to_sharepoint')?['managedDeviceName']",
+            "item/DeviceCategory": "@items('add_those_missing_intune_devices_to_sharepoint')?['deviceCategoryDisplayName']",
+            "item/Model": "@items('add_those_missing_intune_devices_to_sharepoint')?['model']",
+            "item/SerialNumber": "@items('add_those_missing_intune_devices_to_sharepoint')?['serialNumber']",
+            "item/IMEI": "@items('add_those_missing_intune_devices_to_sharepoint')?['imei']",
+            "item/PhoneNumber": "@items('add_those_missing_intune_devices_to_sharepoint')?['phoneNumber']",
+            "item/Renewatexpiration_x003f_": "Yes",
+            "item/Last_x0020_Check_x0020_In": "@items('add_those_missing_intune_devices_to_sharepoint')?['LastCheckIn']"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "9b0ac3fe-932e-4199-940f-e927aa12aa92"
+    }
+}

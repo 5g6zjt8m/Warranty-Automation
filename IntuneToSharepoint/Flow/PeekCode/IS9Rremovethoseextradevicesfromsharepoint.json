@@ -1,0 +1,18 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_sharepointonline",
+            "operationId": "DeleteItem",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+        },
+        "parameters": {
+            "dataset": "site link",
+            "table": "8c9fa4d1-886f-4fe5-aa8a-2466368543c6",
+            "id": "@items('remove_those_extra_devices_from_sharepoint')['ID']"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "a63f1192-b49a-4ab6-9c7b-7ecb5bbe7e5e"
+    }
+}

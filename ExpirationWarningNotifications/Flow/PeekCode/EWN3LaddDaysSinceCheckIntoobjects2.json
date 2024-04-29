@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@body('add_DaysToExpiry_to_objects')",
+        "select": "@addProperty(item(), 'DaysSinceCheckIn', div(sub(ticks(item()?['Last_x0020_Check_x0020_In']), ticks(utcNow())), 864000000000))"
+    },
+    "metadata": {
+        "operationMetadataId": "fa9cd708-6fe5-49f2-a1f5-5a7c3d289ce9"
+    }
+}

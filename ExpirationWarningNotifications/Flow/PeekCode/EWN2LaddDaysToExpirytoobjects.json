@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@outputs('pull_all_with_expiration_date,_marked_for_renewal,_and_lastcheckin')?['body/value']",
+        "select": "@addProperty(item(), 'DaysToExpiry', div(sub(ticks(item()?['WarrantyExpirationDate']), ticks(utcNow())), 864000000000))"
+    },
+    "metadata": {
+        "operationMetadataId": "fa9cd708-6fe5-49f2-a1f5-5a7c3d289ce9"
+    }
+}

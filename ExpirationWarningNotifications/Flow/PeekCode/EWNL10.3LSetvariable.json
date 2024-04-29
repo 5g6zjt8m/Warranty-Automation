@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "name": "Close to expiring",
+        "value": "     The following devices have warranty contracts expiring within 30 days.\n@{outputs('Compose')}\n\n"
+    },
+    "metadata": {
+        "operationMetadataId": "f45da8c0-d54e-4bd0-83b1-ecb3efbc42d3"
+    }
+}

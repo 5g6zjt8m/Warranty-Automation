@@ -1,0 +1,20 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_intune-5f4baaabed94b68102-5f9a08e804554bb16b",
+            "operationId": "Intune",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_intune-5f4baaabed94b68102-5f9a08e804554bb16b"
+        },
+        "parameters": {
+            "$filter": "(Notes eq 'bc3e5c73-e224-4e63-9b2b-0c36784b7e80') and ((((deviceType eq 'android') or (deviceType eq 'androidForWork') or (deviceType eq 'androidnGMS')) or ((deviceType eq 'androidEnterprise') and ((deviceEnrollmentType eq 'androidEnterpriseDedicatedDevice') or (deviceEnrollmentType eq 'androidEnterpriseFullyManaged') or (deviceEnrollmentType eq 'androidEnterpriseCorporateWorkProfile')))))",
+            "$select": "deviceName,osVersion,lastSyncDateTime,imei,deviceCategoryDisplayName,model,serialNumber,phoneNumber,managedDeviceName,id,deviceType,ownerType,deviceRegistrationState,managementAgent,managementState,exchangeAccessState,exchangeAccessStateReason,deviceActionResults,jailbroken,enrolledDateTime,deviceEnrollmentType,lastSyncDateTime",
+            "$orderby": "managedDeviceName asc",
+            "$top": "99999",
+            "$skipToken": "Skip"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "02ce7ffa-8625-4aeb-bf42-c87c0596fcb2"
+    }
+}

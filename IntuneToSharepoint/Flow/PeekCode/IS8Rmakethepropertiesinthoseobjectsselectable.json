@@ -1,0 +1,31 @@
+
+{
+    "inputs": {
+        "content": "@body('exists_in_sharepoint,_but_not_intune_(by_serial)')",
+        "schema": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "ItemInternalId": {
+                        "type": "string"
+                    },
+                    "ID": {
+                        "type": "integer"
+                    },
+                    "SerialNumber": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "ItemInternalId",
+                    "ID",
+                    "SerialNumber"
+                ]
+            }
+        }
+    },
+    "metadata": {
+        "operationMetadataId": "57d40e6a-e023-4c9a-b37a-d925bc937ae6"
+    }
+}

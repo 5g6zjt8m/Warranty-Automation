@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@body('make_formatted_date_an_available_property')",
+        "select": "@item()['serialNumber']"
+    },
+    "metadata": {
+        "operationMetadataId": "153a7853-241e-4e82-9e5f-5d577e44de40"
+    }
+}

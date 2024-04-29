@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@body('make_formatted_date_an_available_property')",
+        "where": "@not(contains(body('array_sharepoint_SN'), item()['serialNumber']))"
+    },
+    "metadata": {
+        "operationMetadataId": "d02cf24e-160f-4e89-a7c6-bcb03f56f799"
+    }
+}

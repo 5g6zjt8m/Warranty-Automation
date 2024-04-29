@@ -1,0 +1,18 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_sharepointonline",
+            "operationId": "GetItems",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+        },
+        "parameters": {
+            "dataset": "",
+            "table": "8c9fa4d1-886f-4fe5-aa8a-2466368543c6",
+            "$top": 5000
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "c660a22f-c259-4211-9418-3d245d752bbf"
+    }
+}

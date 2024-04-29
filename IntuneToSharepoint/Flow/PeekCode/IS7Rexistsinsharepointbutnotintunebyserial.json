@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@outputs('get_all_items_from_sharepoint_list')?['body/value']",
+        "where": "@not(contains(body('array_intune_SN'), item()?['SerialNumber']))"
+    },
+    "metadata": {
+        "operationMetadataId": "7e2e4f77-f46a-457c-8560-7d2bd46b7c20"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@body('devices_close_to_expiring_AND_already_expired_(full_list)')",
+        "where": "@lessOrEquals(item()['DaysSinceCheckIn'], -60)"
+    },
+    "metadata": {
+        "operationMetadataId": "f3d31ce4-0250-4d33-b25a-307fb688b858"
+    }
+}

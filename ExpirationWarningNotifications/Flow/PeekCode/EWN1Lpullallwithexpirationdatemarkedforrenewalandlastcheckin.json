@@ -1,0 +1,19 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_sharepointonline",
+            "operationId": "GetItems",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+        },
+        "parameters": {
+            "dataset": "sharepoint site",
+            "table": "8c9fa4d1-886f-4fe5-aa8a-2466368543c6",
+            "$filter": "(WarrantyExpirationDate ne null) and (Renewatexpiration_x003f_ eq 'Yes') and (Last_x0020_Check_x0020_In ne null)",
+            "$top": 5000
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "2755beea-973f-4d5b-a49f-8e02f35b1f6f"
+    }
+}

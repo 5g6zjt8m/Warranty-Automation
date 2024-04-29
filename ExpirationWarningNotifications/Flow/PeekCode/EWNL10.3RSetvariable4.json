@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "name": "No check in",
+        "value": "     The following devices have not checked in within the past 60 days. Verify the use of these devices before renewing contracts.\n@{outputs('Compose_4')}\n\n"
+    },
+    "metadata": {
+        "operationMetadataId": "0effa0e2-5baa-4faf-818a-c0829e5154ed"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "name": "Already expired",
+        "value": "     The following devices have expired warranty contracts, and are flagged as needing renewal.\n@{outputs('Compose_2')}\n\n"
+    },
+    "metadata": {
+        "operationMetadataId": "0effa0e2-5baa-4faf-818a-c0829e5154ed"
+    }
+}

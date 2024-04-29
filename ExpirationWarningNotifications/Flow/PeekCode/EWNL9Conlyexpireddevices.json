@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@body('devices_close_to_expiring_AND_already_expired_(full_list)')",
+        "where": "@less(item()?['DaysToExpiry'], 0)"
+    },
+    "metadata": {
+        "operationMetadataId": "77c82bea-ecf4-476f-b019-7c09f714f8df"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "inputs": {
+        "variables": [
+            {
+                "name": "Close to expiring",
+                "type": "string",
+                "value": " "
+            }
+        ]
+    },
+    "metadata": {
+        "operationMetadataId": "7ecd450c-2f61-436f-be74-ce9ddd8472ce"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_office365",
+            "operationId": "SendEmailV2",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+        },
+        "parameters": {
+            "emailMessage/To": "mail@example.com",
+            "emailMessage/Subject": "Certificate close to expiring",
+            "emailMessage/Body": "<p>The certificate that handles the Intune/Powerapp connector is going to expire on 3/27/2026.<br>\n<br>\nThis is under the PowerAutomate and Intune Connector registered app in AAD.</p>",
+            "emailMessage/Importance": "Normal"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "6df0bd0e-db6d-4c27-bbeb-573738c93973"
+    }
+}

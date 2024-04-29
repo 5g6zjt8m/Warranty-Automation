@@ -1,0 +1,18 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_sharepointonline_1",
+            "operationId": "GetItems",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+        },
+        "parameters": {
+            "dataset": "",
+            "table": "8c9fa4d1-886f-4fe5-aa8a-2466368543c6",
+            "$filter": "SerialNumber eq '@{items('update_properties_for_all_items_in_list')['serialNumber']}'"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "8037abd9-b110-4042-8d8a-369661660362"
+    }
+}

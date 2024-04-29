@@ -1,0 +1,19 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_office365",
+            "operationId": "SendEmailV2",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+        },
+        "parameters": {
+            "emailMessage/To": "mail@example.com",
+            "emailMessage/Subject": "Android Warranty Report",
+            "emailMessage/Body": "<p>@{variables('Already expired')}<br>\n@{variables('Close to expiring')}<br>\n@{variables('No check in')}<br>\n@{variables('Null values')}</p>",
+            "emailMessage/Importance": "Normal"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "36c17918-f265-486b-ae62-4ef0e8b44c44"
+    }
+}

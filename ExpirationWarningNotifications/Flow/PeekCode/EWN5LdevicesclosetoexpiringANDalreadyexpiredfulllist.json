@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@body('make_DaysToExpiry_an_available_property')",
+        "where": "@lessOrEquals(item()['DaysToExpiry'], 30)"
+    },
+    "metadata": {
+        "operationMetadataId": "f3d31ce4-0250-4d33-b25a-307fb688b858"
+    }
+}

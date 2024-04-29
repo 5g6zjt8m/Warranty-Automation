@@ -1,0 +1,175 @@
+{
+    "inputs": {
+        "content": "@body('add_DaysSinceCheckIn_to_objects_2')",
+        "schema": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@@odata.etag": {
+                        "type": "string"
+                    },
+                    "ItemInternalId": {
+                        "type": "string"
+                    },
+                    "ID": {
+                        "type": "integer"
+                    },
+                    "Title": {
+                        "type": "string"
+                    },
+                    "ManagedDeviceName": {
+                        "type": "string"
+                    },
+                    "DeviceCategory": {
+                        "type": "string"
+                    },
+                    "Model": {
+                        "type": "string"
+                    },
+                    "SerialNumber": {
+                        "type": "string"
+                    },
+                    "IMEI": {
+                        "type": "string"
+                    },
+                    "PhoneNumber": {
+                        "type": "string"
+                    },
+                    "WarrantyExpirationDate": {
+                        "type": "string"
+                    },
+                    "Renewatexpiration_x003f_": {
+                        "type": "string"
+                    },
+                    "Last_x0020_Check_x0020_In": {
+                        "type": "string"
+                    },
+                    "Modified": {
+                        "type": "string"
+                    },
+                    "Created": {
+                        "type": "string"
+                    },
+                    "Author": {
+                        "type": "object",
+                        "properties": {
+                            "@@odata.type": {
+                                "type": "string"
+                            },
+                            "Claims": {
+                                "type": "string"
+                            },
+                            "DisplayName": {
+                                "type": "string"
+                            },
+                            "Email": {
+                                "type": "string"
+                            },
+                            "Picture": {
+                                "type": "string"
+                            },
+                            "Department": {},
+                            "JobTitle": {}
+                        }
+                    },
+                    "Author#Claims": {
+                        "type": "string"
+                    },
+                    "Editor": {
+                        "type": "object",
+                        "properties": {
+                            "@@odata.type": {
+                                "type": "string"
+                            },
+                            "Claims": {
+                                "type": "string"
+                            },
+                            "DisplayName": {
+                                "type": "string"
+                            },
+                            "Email": {
+                                "type": "string"
+                            },
+                            "Picture": {
+                                "type": "string"
+                            },
+                            "Department": {},
+                            "JobTitle": {}
+                        }
+                    },
+                    "Editor#Claims": {
+                        "type": "string"
+                    },
+                    "{Identifier}": {
+                        "type": "string"
+                    },
+                    "{IsFolder}": {
+                        "type": "boolean"
+                    },
+                    "{Thumbnail}": {
+                        "type": "object",
+                        "properties": {
+                            "Large": {},
+                            "Medium": {},
+                            "Small": {}
+                        }
+                    },
+                    "{Link}": {
+                        "type": "string"
+                    },
+                    "{Name}": {
+                        "type": "string"
+                    },
+                    "{FilenameWithExtension}": {
+                        "type": "string"
+                    },
+                    "{Path}": {
+                        "type": "string"
+                    },
+                    "{FullPath}": {
+                        "type": "string"
+                    },
+                    "{HasAttachments}": {
+                        "type": "boolean"
+                    },
+                    "{VersionNumber}": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "@@odata.etag",
+                    "ItemInternalId",
+                    "ID",
+                    "Title",
+                    "ManagedDeviceName",
+                    "DeviceCategory",
+                    "Model",
+                    "SerialNumber",
+                    "WarrantyExpirationDate",
+                    "Renewatexpiration_x003f_",
+                    "Last_x0020_Check_x0020_In",
+                    "Modified",
+                    "Created",
+                    "Author",
+                    "Author#Claims",
+                    "Editor",
+                    "Editor#Claims",
+                    "{Identifier}",
+                    "{IsFolder}",
+                    "{Thumbnail}",
+                    "{Link}",
+                    "{Name}",
+                    "{FilenameWithExtension}",
+                    "{Path}",
+                    "{FullPath}",
+                    "{HasAttachments}",
+                    "{VersionNumber}"
+                ]
+            }
+        }
+    },
+    "metadata": {
+        "operationMetadataId": "a87b5f43-d573-4a0a-ba1c-c4f1e9b7a243"
+    }
+}

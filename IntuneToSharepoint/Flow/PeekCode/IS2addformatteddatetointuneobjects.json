@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@outputs('Intune_API_call')?['body/value']",
+        "select": "@addProperty(item(), 'LastCheckIn', formatDateTime(item()?['lastSyncDateTime'], 'd'))"
+    },
+    "metadata": {
+        "operationMetadataId": "ceabb556-2ccd-4b55-af3f-6c5f28ba220f"
+    }
+}

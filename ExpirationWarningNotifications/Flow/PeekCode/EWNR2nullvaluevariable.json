@@ -1,0 +1,14 @@
+{
+    "inputs": {
+        "variables": [
+            {
+                "name": "Null values",
+                "type": "string",
+                "value": " "
+            }
+        ]
+    },
+    "metadata": {
+        "operationMetadataId": "48985458-8703-47bf-ba3c-72374df07b0f"
+    }
+}

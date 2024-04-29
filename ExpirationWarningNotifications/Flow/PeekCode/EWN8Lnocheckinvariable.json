@@ -1,0 +1,14 @@
+{
+    "inputs": {
+        "variables": [
+            {
+                "name": "No check in",
+                "type": "string",
+                "value": " "
+            }
+        ]
+    },
+    "metadata": {
+        "operationMetadataId": "7cd0dae7-f6d4-4682-a213-d007f3aa496c"
+    }
+}

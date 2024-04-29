@@ -1,0 +1,9 @@
+{
+    "inputs": {
+        "from": "@outputs('get_all_items_from_sharepoint_list')?['body/value']",
+        "select": "@item()?['serialNumber']"
+    },
+    "metadata": {
+        "operationMetadataId": "b5154279-ce9b-41d5-88c3-dcb47489d409"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_sharepointonline_1",
+            "operationId": "PatchItem",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+        },
+        "parameters": {
+            "dataset": "site address",
+            "table": "8c9fa4d1-886f-4fe5-aa8a-2466368543c6",
+            "id": "@items('Apply_to_each_2')?['ID']",
+            "item/Title": "@items('update_properties_for_all_items_in_list')['deviceName']",
+            "item/ManagedDeviceName": "@items('update_properties_for_all_items_in_list')['managedDeviceName']",
+            "item/DeviceCategory": "@items('update_properties_for_all_items_in_list')['deviceCategoryDisplayName']",
+            "item/Model": "@items('update_properties_for_all_items_in_list')['model']",
+            "item/SerialNumber": "@items('update_properties_for_all_items_in_list')['serialNumber']",
+            "item/IMEI": "@items('update_properties_for_all_items_in_list')['imei']",
+            "item/PhoneNumber": "@items('update_properties_for_all_items_in_list')['phoneNumber']",
+            "item/WarrantyExpirationDate": "@items('Apply_to_each_2')?['WarrantyExpirationDate']",
+            "item/Renewatexpiration_x003f_": "@items('Apply_to_each_2')?['Renewatexpiration_x003f_']",
+            "item/Last_x0020_Check_x0020_In": "@items('update_properties_for_all_items_in_list')['LastCheckIn']"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "operationMetadataId": "2f73f4b2-b60a-4aa7-bdf6-5944baea1ece"
+    }
+}

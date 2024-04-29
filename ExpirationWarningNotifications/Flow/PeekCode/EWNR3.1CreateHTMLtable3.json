@@ -1,0 +1,39 @@
+{
+    "inputs": {
+        "from": "@outputs('pull_all_with_null_expiration_or_status')?['body/value']",
+        "format": "HTML",
+        "columns": [
+            {
+                "header": "Managed Device Name",
+                "value": "@item()?['ManagedDeviceName']"
+            },
+            {
+                "header": "Device Category",
+                "value": "@item()?['DeviceCategory']"
+            },
+            {
+                "header": "Model",
+                "value": "@item()?['Model']"
+            },
+            {
+                "header": "Serial Number",
+                "value": "@item()?['SerialNumber']"
+            },
+            {
+                "header": "Warranty Expiration Date",
+                "value": "@item()?['WarrantyExpirationDate']"
+            },
+            {
+                "header": "Renew?",
+                "value": "@item()?['Renewatexpiration_x003f_']"
+            },
+            {
+                "header": "Last Check In",
+                "value": "@item()?['Last_x0020_Check_x0020_In']"
+            }
+        ]
+    },
+    "metadata": {
+        "operationMetadataId": "90dd96a2-0818-4a52-a7fc-9652517d5464"
+    }
+}

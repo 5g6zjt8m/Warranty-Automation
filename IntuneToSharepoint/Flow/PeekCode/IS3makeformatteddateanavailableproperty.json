@@ -1,0 +1,106 @@
+{
+    "inputs": {
+        "content": "@body('add_formatted_date_to_intune_objects')",
+        "schema": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "deviceName": {
+                        "type": "string"
+                    },
+                    "osVersion": {
+                        "type": "string"
+                    },
+                    "lastSyncDateTime": {
+                        "type": "string"
+                    },
+                    "imei": {
+                        "type": "string"
+                    },
+                    "deviceCategoryDisplayName": {
+                        "type": "string"
+                    },
+                    "model": {
+                        "type": "string"
+                    },
+                    "serialNumber": {
+                        "type": "string"
+                    },
+                    "phoneNumber": {
+                        "type": "string"
+                    },
+                    "managedDeviceName": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "deviceType": {
+                        "type": "string"
+                    },
+                    "ownerType": {
+                        "type": "string"
+                    },
+                    "deviceRegistrationState": {
+                        "type": "string"
+                    },
+                    "managementAgent": {
+                        "type": "string"
+                    },
+                    "managementState": {
+                        "type": "string"
+                    },
+                    "exchangeAccessState": {
+                        "type": "string"
+                    },
+                    "exchangeAccessStateReason": {
+                        "type": "string"
+                    },
+                    "jailBroken": {
+                        "type": "string"
+                    },
+                    "enrolledDateTime": {
+                        "type": "string"
+                    },
+                    "deviceEnrollmentType": {
+                        "type": "string"
+                    },
+                    "deviceActionResults": {
+                        "type": "array"
+                    },
+                    "LastCheckIn": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "deviceName",
+                    "osVersion",
+                    "lastSyncDateTime",
+                    "imei",
+                    "deviceCategoryDisplayName",
+                    "model",
+                    "serialNumber",
+                    "phoneNumber",
+                    "managedDeviceName",
+                    "id",
+                    "deviceType",
+                    "ownerType",
+                    "deviceRegistrationState",
+                    "managementAgent",
+                    "managementState",
+                    "exchangeAccessState",
+                    "exchangeAccessStateReason",
+                    "jailBroken",
+                    "enrolledDateTime",
+                    "deviceEnrollmentType",
+                    "deviceActionResults",
+                    "LastCheckIn"
+                ]
+            }
+        }
+    },
+    "metadata": {
+        "operationMetadataId": "536dd4e1-ae64-46d4-91e9-34d74f6bbf81"
+    }
+}
