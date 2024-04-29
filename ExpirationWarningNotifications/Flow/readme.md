@@ -158,10 +158,6 @@ _
 
 _
 
-![EWN11L](/ExpirationWarningNotifications/Flow/Screenshots/EWN11Liftheresanythingtoreportsendtheemail.png)
-
-No code for this step, but the expressions are ``variables('Null values')``, ``variables('No check in')``, ``variables('Already expired')`` and ``variables('Close to expiring')``. The empty boxes on the right actually contain code Alt+255.
-
 ### Right Branch
 
 ![EWNR1](/ExpirationWarningNotifications/Flow/Screenshots/EWNR1pullallwithnullexpirationorstatus.png)
@@ -201,6 +197,12 @@ _
 _
 
 ### Joined Branches
+
+![EWN11L](/ExpirationWarningNotifications/Flow/Screenshots/EWN11Liftheresanythingtoreportsendtheemail.png)
+
+No code for this step, but the expressions are ``variables('Null values')``, ``variables('No check in')``, ``variables('Already expired')`` and ``variables('Close to expiring')``. The empty boxes on the right actually contain code Alt+255.
+
+_
 
 ![EWN11.1L](/ExpirationWarningNotifications/Flow/Screenshots/EWN11.1LSendanemailV2.png)
 
